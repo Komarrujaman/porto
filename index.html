@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- CSS kita -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- end icon -->
+
+    <title>Komarru Jaman | Portofolio</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fw-bold">
+      <div class="container">
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#porto">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="/img/profil.jpg" alt="" width="200px" class="rounded-circle img-thumbnail" />
+      <h1 class="display-1">Komarru Jaman</h1>
+      <p class="lead">IT Engineer | Web Developer | Amateur Photographer</p>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="about container text-center">
+        <h2 class="display5">About Me</h2>
+        <div class="row mt-5">
+          <div class="col-5">
+            <img src="/img/profil.jpg" alt="about" />
+          </div>
+          <div class="col-md-6 row">
+            <p class="col-md-12">
+              Hello, My Name Is Komarru Jaman. I was born at Bogor City, 10 April 1997. I have graduated from the Department of Informatics Engineering, Bina Insani University in 2020 with a GPA of 3.21. Currently I work in one of the
+              subsidiaries of PT. Telkom Indonesia, which is Antares IoT Solution as an Engineer.
+            </p>
+            <p>
+              My job description while working at Antares includes: NOC (Network Operation Center) to monitor all projects that have been made, both commercial and trial. Then I was also often assigned to work in the field with a Jobdesc
+              Network Engineer, namely to create and manage a computer network in the project area.
+            </p>
+            <p>Apart from being a person in the IT world, I also have several hobbies outside of IT, such as music and photography. To see some of my photos, I've created a special gallery to showcase my photos.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#041C32" fill-opacity="1" d="M0,128L360,256L720,224L1080,256L1440,160L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+    </section>
+    <!-- End About Me -->
+    <!-- Experience & Education -->
+    <section id="porto">
+      <div class="container">
+        <h2 class="display5 mb-5 text-center">My Work</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L360,224L720,288L1080,224L1440,64L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+    </section>
+    <!-- End Experience & Education -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="text-center m-5">Photography Collection</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/cr1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/cr2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/cr3.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/bg1.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#041C32" fill-opacity="1" d="M0,128L360,256L720,224L1080,256L1440,160L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Contact -->
+    <section id="contact" >
+      <div class="">
+        <h2 class="display5 mb-5 text-center">Get In Touch With Me</h2>
+          <ul class="row icon text-light">
+            <div class="col-md-4 align-items-start"></div>
+            <div class="col-md-4 align-items-center"><li><a href="https://id.linkedin.com/in/komarru-jaman-018b81141"><i class="fa-brands fa-linkedin"> </i><label>Komarru Jaman</label></a></li>
+              <li><a href="https://www.instagram.com/_maru97/"><i class="fa-brands fa-instagram"></i><label>@_maru97</label></a></li>
+              <li><a href="https://www.facebook.com/komarrezpector.upz.9"><i class="fa-brands fa-facebook"></i><label>Komaru J Elf</label></a></li>
+              <li><a href="https://mail.google.com/"><i class="fa-solid fa-at"></i><label>Komarru04@gmail.com</label></a></li>
+              <li><a href=" https://wa.me/+6285156497210"><i class="fa-brands fa-whatsapp"></i><label>+62 851-5649-7210</label></a></li>
+            </div>
+            <div class="col-md-4 align-items-end"></div>
+          </ul> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L360,224L720,288L1080,224L1440,64L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+    </section>
+    <!-- End Contact -->
+    
+    
+    <!-- footer --><footer>
+      <div class="text-center p-4">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold">Komarru Jaman</a>
+    </div>
+    </footer>
+    <!-- end footer -->
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/26868297de.js" crossorigin="anonymous"></script>
+  </body>
+</html>
